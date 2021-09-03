@@ -2,11 +2,11 @@ import { StackScreenProps } from '@react-navigation/stack';
 import * as React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-import { RootStackParamList } from '../types';
+import { AuthStackParamList } from '../../types';
 
-export default function Home({
+export default function Signup({
   navigation,
-}: StackScreenProps<RootStackParamList, 'Home'>) {
+}: StackScreenProps<AuthStackParamList, 'Signup'>) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>This screen doesn't exist.</Text>

@@ -17,7 +17,7 @@ import Onboarding from '../screens/Onboarding';
 import Signin from '../screens/Signin';
 import Signup from '../screens/Signup';
 
-import { AuthStackParamList, RootStackParamList } from '../types';
+import { AuthStackParamList, RootStackParamList } from '../../types';
 
 import LinkingConfiguration from './LinkingConfiguration';
 

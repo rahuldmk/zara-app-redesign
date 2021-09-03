@@ -2,14 +2,14 @@ import { StackScreenProps } from '@react-navigation/stack';
 import * as React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-import { RootStackParamList } from '../types';
+import { RootStackParamList } from '../../types';
 
-export default function Clothing({
+export default function Home({
   navigation,
-}: StackScreenProps<RootStackParamList, 'Clothing'>) {
+}: StackScreenProps<RootStackParamList, 'Home'>) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Clothing</Text>
+      <Text style={styles.title}>This screen doesn't exist.</Text>
     </View>
   );
 }

@@ -2,14 +2,14 @@ import { StackScreenProps } from '@react-navigation/stack';
 import * as React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-import { AuthStackParamList } from '../types';
+import { RootStackParamList } from '../../types';
 
-export default function Signup({
+export default function Clothing({
   navigation,
-}: StackScreenProps<AuthStackParamList, 'Signup'>) {
+}: StackScreenProps<RootStackParamList, 'Clothing'>) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>This screen doesn't exist.</Text>
+      <Text style={styles.title}>Clothing</Text>
     </View>
   );
 }

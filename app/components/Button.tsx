@@ -1,11 +1,12 @@
 import React from 'react';
 import { TouchableOpacity, StyleSheet, Dimensions } from 'react-native';
 const { width, height } = Dimensions.get('window');
+
 type ThemeProps = {
     onPress(): void,
 }
 
-type IButtonProps = ThemeProps & TouchableOpacity['props'];
+type IButtonProps =  TouchableOpacity['props'];
 
 export const Button = ({ onPress, children,style }: IButtonProps) => {
     

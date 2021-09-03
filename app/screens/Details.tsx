@@ -1,14 +1,16 @@
 import { StackScreenProps } from '@react-navigation/stack';
 import * as React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { RootStackParamList } from '../types';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-export default function Category({
+import { RootStackParamList } from '../../types';
+
+export default function Details({
   navigation,
-}: StackScreenProps<RootStackParamList, 'Category'>) {
+}: StackScreenProps<RootStackParamList, 'Details'>) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>This screen doesn't exist.</Text>
+      <Text style={styles.title}>Details</Text>
+     
     </View>
   );
 }

@@ -2,7 +2,7 @@ import { StackScreenProps } from '@react-navigation/stack';
 import * as React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View, FlatList, Animated } from 'react-native';
 
-import { AuthStackParamList } from '../types';
+import { AuthStackParamList } from '../../types';
 import { onboarding } from '../constants/Data';
 import { OnboardingItem } from '../components/OnboardingItem';
 import { StatusBar } from 'expo-status-bar';

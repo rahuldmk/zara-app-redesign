@@ -1,9 +1,9 @@
 import React from 'react';
 import { StackScreenProps } from '@react-navigation/stack';
 import { StyleSheet, View, ImageBackground, Dimensions, TextInput } from 'react-native';
-import { AuthStackParamList } from '../types';
+import { AuthStackParamList } from '../../types';
 import { StatusBar } from 'expo-status-bar';
-import { Button, Text } from '../components/';
+import { Button, Text } from '../components';
 import colors from '../constants/Colors';
 import sizes from '../constants/Size';
 const { width, height } = Dimensions.get('window');
@@ -38,8 +38,8 @@ export default function Signin({ navigation }: StackScreenProps<AuthStackParamLi
           </View>
         </View>
         <View style={styles.buttonContainer}>
-          <Button onPress={Signin} ><Text button color="#FFFFFF">Login</Text></Button>
-          <Button onPress={Signin} style={{ backgroundColor: colors.dark.fb, marginTop: 20 }}><Text button color="#FFFFFF">Login With Facebook</Text></Button>
+          <Button onPress={()=> Signup()} ><Text button color="#FFFFFF">Login</Text></Button>
+          <Button onPress={()=> Signup()} style={{ backgroundColor: colors.dark.fb, marginTop: 20 }}><Text button color="#FFFFFF">Login With Facebook</Text></Button>
         </View>
 
         <View>

@@ -2,15 +2,14 @@ import { StackScreenProps } from '@react-navigation/stack';
 import * as React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-import { RootStackParamList } from '../types';
+import { RootStackParamList } from '../../types';
 
-export default function Details({
+export default function List({
   navigation,
-}: StackScreenProps<RootStackParamList, 'Details'>) {
+}: StackScreenProps<RootStackParamList, 'List'>) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Details</Text>
-     
+      <Text style={styles.title}>List</Text>
     </View>
   );
 }
