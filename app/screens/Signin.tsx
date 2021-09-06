@@ -59,7 +59,7 @@ export default function Signin({ navigation }: StackScreenProps<AuthStackParamLi
         </View>
         <View style={styles.buttonContainer}>
           <Button onPress={() => login()} ><Text button color="#FFFFFF">Login</Text></Button>
-          <Button onPress={() => Signup()} style={{ backgroundColor: colors.dark.fb, marginTop: 20 }}><Text button color="#FFFFFF">Login With Facebook</Text></Button>
+          <Button onPress={() => fblogin()} style={{ backgroundColor: colors.dark.fb, marginTop: 20 }}><Text button color="#FFFFFF">Login With Facebook</Text></Button>
         </View>
 
         <View>
